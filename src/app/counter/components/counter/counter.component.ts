@@ -15,7 +15,6 @@ export class CounterComponent{
   counter : number = 10;
   increaseBy(value : number) : void{
     this.counter += 1;
-    console.log(9+'adssdasdasd')
   }
   reset(value : number) : void{
     this.counter = 10;
